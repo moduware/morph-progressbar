@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, minimum-scale=1, initial-scale=1, user-scalable=yes">
+
+    <title>morph-button demo</title>
+
+    <script src="../node_modules/@webcomponents/webcomponentsjs/webcomponents-bundle.js"></script>
+    
+    <script type="module" src="../node_modules/@polymer/iron-demo-helpers/demo-snippet.js"></script>
+    <script type="module" src="../node_modules/@moduware/morph-shared-colors/morph-shared-colors.js"></script>
+    <script type="module" src="../morph-progressbar.js"></script>
+
+    <script type="module">
+      var $_documentContainer = document.createElement('template');
+      $_documentContainer.innerHTML = /*html*/`
+      <style is="custom-style" include="demo-pages-shared-styles"></style>
+      `;
+      document.head.appendChild($_documentContainer.content);
+    </script>
+
+    <script type="module">
+      var $_documentContainer = document.createElement('template');
+
+      $_documentContainer.innerHTML = /*html*/`
+      <style>
+        
+      </style>
+      `;
+
+      document.head.appendChild($_documentContainer.content);
+    </script>
+
+  </head>
+
+  <body>
+    <script type="module">
+      var $_documentContainer = document.createElement('template');
+
+      $_documentContainer.innerHTML = /*html*/`
+      <div class="vertical-section-container centered">
+        <h3>morph-progressbar demo</h3>
+        
+        <demo-snippet>
+          <template>
+
+            <p style="background-color: #ccc; padding-top: 20px; padding-bottom: 20px;">
+              <morph-progressbar progress="45"></morph-progressbar>
+            </p>
+
+          </template>
+        </demo-snippet>
+      </div>
+      `;
+
+      document.body.appendChild($_documentContainer.content);
+    </script>
+  </body>
+</html>
