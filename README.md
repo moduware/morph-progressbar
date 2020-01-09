@@ -22,7 +22,23 @@ For the information about how to clone the desired repository, running the local
 
 |     Custom Attribute    |   Type  |               Description               | Default |
 |:-----------------------:|:-------:|:---------------------------------------:|:-------:|
+<<<<<<< HEAD
 |           **`progress`**           | Number | Shows the percentage of progress  |  0  |
+=======
+|           **`big`**           | Boolean | Identifies if the button is big.        |  False  |
+|          **`filled`**         | Boolean | Identifies if the button is filled.     |  False  |
+|          **`flat`**           | Boolean | Identifies if the button has no rounded corners.     |  False  |
+|          **`color`**          |  String | Identifies the color of the button      | 'blue'  |
+|   **`active`**<br> <sub>IOS only</sub>   | Boolean | Shows if the button is in active state. |  False  |
+| **`rounded`**<br> <sub>IOS only</sub>  | Boolean | Identifies if the button is rounded.    |  False  |
+| **`raised`**<br> <sub>Android only</sub> | Boolean | Identifies if the button is raised.     |  False  |
+| **`disabled`**<br> <sub>Android only</sub> | Boolean | Identifies if the button is disabled.     |  False  |
+
+- To use default colors, include `morph-shared-colors` in the `morph-button`
+
+
+-For IOS platform;
+>>>>>>> 001f10efc038a17aeb93c9ca9ea453b07711ac99
 
 
 ## Further help
